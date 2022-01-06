@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react'
+import firebase from './firebase' 
 import BooksContainer from './components/BooksContainer'
 import {GlobalStyle} from './styles'
 import Header from './components/Header'
