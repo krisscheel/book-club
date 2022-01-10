@@ -11,8 +11,8 @@ export const GlobalStyle = createGlobalStyle`
 `
 
 export const Pill = styled.div`
-  background: #a7e1f8;
-  border: 2px solid #000;
+  background: #ddb2a3;
+  border: 1px solid #000;
   border-radius: 30px;
   height: 20px;
   width: 20px;
