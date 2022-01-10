@@ -46,21 +46,6 @@ const App = () => {
     })
   }, [])
 
-  useEffect(() => {
-
-    const fetchData = async () => {
-      try {
-      const response = await fetch('https://book-club-json.herokuapp.com/books')
-      const books = await response.json()
-      //setBooks(books)
-      //setFilteredBooks(books)
-      } catch (errors) {
-      }
-    }
-
-    fetchData()
-  }, [])
-
   const pickBook = (book) => {
     setSelectedBook(book)
     setShowPanel(true)
