@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import {Pill} from '../../styles'
 
 export const Panel = styled.article`
-  background-color: #ffe581;
+  background-color: #d2c7c1;
   border-left: 2px solid #000;
   height: calc(100vh - 82px);
   width: 660px;
