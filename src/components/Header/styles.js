@@ -24,7 +24,7 @@ export const HeaderContainer = styled.header`
   position: fixed;
   z-index: 3;
 
-  @media (max-width: 800px) {
+  @media (max-width: 1000px) {
     padding: 20px;
   }
 `
