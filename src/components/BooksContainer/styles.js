@@ -39,4 +39,8 @@ export const BookList = styled.div`
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 20px;
   }
+
+  @media (max-width: 500px) {
+    grid-template-columns: (1, 1fr);
+  }
 `
